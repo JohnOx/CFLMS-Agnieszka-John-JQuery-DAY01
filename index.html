@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery- Basic Exercise</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+
+    <article>
+        <p>this is a text in the article</p>
+    </article>
+
+    <p>Hello!</p>
+    <p id="intro">Good Morning!</p>
+    <p class="note">
+        <a href="#">this is a link</a>
+    </p>
+    <p>What a great day!</p>
+
+
+    <p>Hello!</p>
+    <p id="intro">Good Morning!</p>
+    <p class="note">
+        <a href="#">this is a link</a>
+    </p>
+    <p>What a great day!</p>
+
+    <div class="note" style="border: solid 20px black">
+
+    </div>
+
+
+    <ul>
+        <li>this is the 1st element</li>
+        <li>this is the 2nd element</li>
+        <li>this is the 3rd element</li>
+        <li>this is the 4th element</li>
+    </ul>
+    
+
+        <script>
+            $(document).ready(function(){
+                $("p:even").css("background-color", "yellow");
+
+            });
+
+
+        </script>
+</body>
+</html>
